@@ -1,0 +1,8 @@
+com/thoughtworks/collection/StreamMapTest.java
+ com.thoughtworks.collection.StreamMapTest
+com/thoughtworks/collection/StreamSupplementTest.java
+ com.thoughtworks.collection.StreamSupplementTest
+com/thoughtworks/collection/StreamFilterTest.java
+ com.thoughtworks.collection.StreamFilterTest
+com/thoughtworks/collection/StreamReduceTest.java
+ com.thoughtworks.collection.StreamReduceTest
