@@ -7,22 +7,29 @@ import java.util.stream.Collectors;
 public class StreamSupplement {
 
     public StreamSupplement() {
-        return numbers.stream()
+
+
     }
 
     public List<Integer> sortFromMaxToMin(List<Integer> numbers) {
+        return numbers.stream()
+                .sorted(Comparator.reverseOrder())
+                .collect(Collectors.toList());
 
-        return null;
     }
 
     public double getAverage(List<Integer> numbers) {
-
-        return 0;
+        return numbers.stream()
+                .mapToDouble(number -> number)
+                .average()
+                .getAsDouble();
     }
 
     public int getMaxValue(List<Integer> numbers) {
-
-        return 0;
+        return numbers.stream()
+                .mapToInt(number -> number)
+                .max()
+                .getAsInt();
     }
 
 }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thoughtworks.collection.StreamSupplementTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-31T16:09:31" hostname="MNLITA04-W10" time="0.035">
+  <properties/>
+  <testcase name="should_get_average_of_list()" classname="com.thoughtworks.collection.StreamSupplementTest" time="0.035"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
